@@ -1,0 +1,1024 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData browserify
+20 silly mapToRegistry name browserify
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'browserify',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'browserify',
+23 silly mapToRegistry   name: 'browserify',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/browserify
+25 silly fetchNamedPackageData del
+26 silly mapToRegistry name del
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'del',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'del',
+29 silly mapToRegistry   name: 'del',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/del
+31 silly fetchNamedPackageData event-stream
+32 silly mapToRegistry name event-stream
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'event-stream',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'event-stream',
+35 silly mapToRegistry   name: 'event-stream',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/event-stream
+37 silly fetchNamedPackageData gulp
+38 silly mapToRegistry name gulp
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'gulp',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'gulp',
+41 silly mapToRegistry   name: 'gulp',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/gulp
+43 silly fetchNamedPackageData gulp-autoprefixer
+44 silly mapToRegistry name gulp-autoprefixer
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'gulp-autoprefixer',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'gulp-autoprefixer',
+47 silly mapToRegistry   name: 'gulp-autoprefixer',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-autoprefixer
+49 silly fetchNamedPackageData gulp-connect
+50 silly mapToRegistry name gulp-connect
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'gulp-connect',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'gulp-connect',
+53 silly mapToRegistry   name: 'gulp-connect',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+55 silly fetchNamedPackageData gulp-eslint
+56 silly mapToRegistry name gulp-eslint
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'gulp-eslint',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'gulp-eslint',
+59 silly mapToRegistry   name: 'gulp-eslint',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-eslint
+61 silly fetchNamedPackageData gulp-insert
+62 silly mapToRegistry name gulp-insert
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'gulp-insert',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'gulp-insert',
+65 silly mapToRegistry   name: 'gulp-insert',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/gulp-insert
+67 silly fetchNamedPackageData gulp-rename
+68 silly mapToRegistry name gulp-rename
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'gulp-rename',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'gulp-rename',
+71 silly mapToRegistry   name: 'gulp-rename',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+73 silly fetchNamedPackageData gulp-sass
+74 silly mapToRegistry name gulp-sass
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'gulp-sass',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'gulp-sass',
+77 silly mapToRegistry   name: 'gulp-sass',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+79 silly fetchNamedPackageData gulp-uglify
+80 silly mapToRegistry name gulp-uglify
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'gulp-uglify',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'gulp-uglify',
+83 silly mapToRegistry   name: 'gulp-uglify',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+85 silly fetchNamedPackageData gulp-zip
+86 silly mapToRegistry name gulp-zip
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'gulp-zip',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'gulp-zip',
+89 silly mapToRegistry   name: 'gulp-zip',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/gulp-zip
+91 silly fetchNamedPackageData vinyl-buffer
+92 silly mapToRegistry name vinyl-buffer
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'vinyl-buffer',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'vinyl-buffer',
+95 silly mapToRegistry   name: 'vinyl-buffer',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/vinyl-buffer
+97 silly fetchNamedPackageData vinyl-source-stream
+98 silly mapToRegistry name vinyl-source-stream
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'vinyl-source-stream',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'vinyl-source-stream',
+101 silly mapToRegistry   name: 'vinyl-source-stream',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/vinyl-source-stream
+103 verbose request uri https://registry.npmjs.org/browserify
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 13:20:44
+106 verbose request id 7aa42834330ebdb5
+107 http request GET https://registry.npmjs.org/browserify
+108 verbose request uri https://registry.npmjs.org/gulp-autoprefixer
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 13:20:44
+111 http request GET https://registry.npmjs.org/gulp-autoprefixer
+112 verbose request uri https://registry.npmjs.org/gulp-eslint
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 13:20:44
+115 http request GET https://registry.npmjs.org/gulp-eslint
+116 verbose request uri https://registry.npmjs.org/gulp-insert
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 13:20:44
+119 http request GET https://registry.npmjs.org/gulp-insert
+120 verbose request uri https://registry.npmjs.org/gulp-sass
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 13:20:44
+123 http request GET https://registry.npmjs.org/gulp-sass
+124 verbose request uri https://registry.npmjs.org/gulp-zip
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 13:20:44
+127 http request GET https://registry.npmjs.org/gulp-zip
+128 verbose request uri https://registry.npmjs.org/vinyl-buffer
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 13:20:44
+131 http request GET https://registry.npmjs.org/vinyl-buffer
+132 verbose request uri https://registry.npmjs.org/vinyl-source-stream
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 13:20:44
+135 http request GET https://registry.npmjs.org/vinyl-source-stream
+136 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+137 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+138 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+139 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+140 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+141 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+142 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+143 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+144 verbose request uri https://registry.npmjs.org/event-stream
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 13:20:46
+147 verbose etag W/"59561cbf-17b92"
+148 verbose lastModified Fri, 30 Jun 2017 09:41:19 GMT
+149 http request GET https://registry.npmjs.org/event-stream
+150 verbose request uri https://registry.npmjs.org/gulp-rename
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 13:20:46
+153 verbose etag W/"59776724-3e07"
+154 verbose lastModified Tue, 25 Jul 2017 15:43:32 GMT
+155 http request GET https://registry.npmjs.org/gulp-rename
+156 verbose request uri https://registry.npmjs.org/gulp-connect
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 13:20:46
+159 verbose etag W/"59786617-11db7"
+160 verbose lastModified Wed, 26 Jul 2017 09:51:19 GMT
+161 http request GET https://registry.npmjs.org/gulp-connect
+162 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+163 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+164 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+165 verbose request uri https://registry.npmjs.org/del
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 13:20:46
+168 verbose etag W/"597777ee-7d2a"
+169 verbose lastModified Tue, 25 Jul 2017 16:55:10 GMT
+170 http request GET https://registry.npmjs.org/del
+171 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+172 verbose request uri https://registry.npmjs.org/gulp-uglify
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 13:20:46
+175 verbose etag W/"59777133-e247"
+176 verbose lastModified Tue, 25 Jul 2017 16:26:27 GMT
+177 http request GET https://registry.npmjs.org/gulp-uglify
+178 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+179 verbose request uri https://registry.npmjs.org/gulp
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 13:20:46
+182 verbose etag W/"5977a0be-1d6fb"
+183 verbose lastModified Tue, 25 Jul 2017 19:49:18 GMT
+184 http request GET https://registry.npmjs.org/gulp
+185 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+186 info attempt registry request try #2 at 13:20:54
+187 http request GET https://registry.npmjs.org/browserify
+188 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+189 info attempt registry request try #2 at 13:20:55
+190 http request GET https://registry.npmjs.org/gulp-autoprefixer
+191 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+192 info attempt registry request try #2 at 13:20:55
+193 http request GET https://registry.npmjs.org/gulp-eslint
+194 info attempt registry request try #2 at 13:20:55
+195 http request GET https://registry.npmjs.org/gulp-insert
+196 info attempt registry request try #2 at 13:20:55
+197 http request GET https://registry.npmjs.org/gulp-sass
+198 info attempt registry request try #2 at 13:20:55
+199 http request GET https://registry.npmjs.org/gulp-zip
+200 info attempt registry request try #2 at 13:20:55
+201 http request GET https://registry.npmjs.org/vinyl-buffer
+202 info attempt registry request try #2 at 13:20:55
+203 http request GET https://registry.npmjs.org/vinyl-source-stream
+204 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+205 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+206 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+207 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+208 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+209 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+210 info attempt registry request try #2 at 13:20:56
+211 verbose etag W/"59561cbf-17b92"
+212 verbose lastModified Fri, 30 Jun 2017 09:41:19 GMT
+213 http request GET https://registry.npmjs.org/event-stream
+214 info attempt registry request try #2 at 13:20:56
+215 verbose etag W/"59776724-3e07"
+216 verbose lastModified Tue, 25 Jul 2017 15:43:32 GMT
+217 http request GET https://registry.npmjs.org/gulp-rename
+218 info attempt registry request try #2 at 13:20:56
+219 verbose etag W/"59786617-11db7"
+220 verbose lastModified Wed, 26 Jul 2017 09:51:19 GMT
+221 http request GET https://registry.npmjs.org/gulp-connect
+222 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+223 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+224 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+225 info attempt registry request try #2 at 13:20:56
+226 verbose etag W/"597777ee-7d2a"
+227 verbose lastModified Tue, 25 Jul 2017 16:55:10 GMT
+228 http request GET https://registry.npmjs.org/del
+229 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+230 info attempt registry request try #2 at 13:20:56
+231 verbose etag W/"59777133-e247"
+232 verbose lastModified Tue, 25 Jul 2017 16:26:27 GMT
+233 http request GET https://registry.npmjs.org/gulp-uglify
+234 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+235 info attempt registry request try #2 at 13:20:56
+236 verbose etag W/"5977a0be-1d6fb"
+237 verbose lastModified Tue, 25 Jul 2017 19:49:18 GMT
+238 http request GET https://registry.npmjs.org/gulp
+239 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+240 info attempt registry request try #3 at 13:21:54
+241 http request GET https://registry.npmjs.org/browserify
+242 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+242 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+242 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+242 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+242 silly fetchPackageMetaData  error for browserify@^11.2.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+242 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+242 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+242 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+242 silly fetchPackageMetaData   code: 'ENOENT',
+242 silly fetchPackageMetaData   errno: 'ENOENT',
+242 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+242 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+242 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+242 silly fetchPackageMetaData   port: 443 }
+243 info attempt registry request try #3 at 13:21:55
+244 http request GET https://registry.npmjs.org/gulp-autoprefixer
+245 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+245 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+245 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+245 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+245 silly fetchPackageMetaData  error for gulp-autoprefixer@^3.1.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+245 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+245 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+245 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+245 silly fetchPackageMetaData   code: 'ENOENT',
+245 silly fetchPackageMetaData   errno: 'ENOENT',
+245 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+245 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+245 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+245 silly fetchPackageMetaData   port: 443 }
+246 info attempt registry request try #3 at 13:21:55
+247 http request GET https://registry.npmjs.org/gulp-eslint
+248 info attempt registry request try #3 at 13:21:55
+249 http request GET https://registry.npmjs.org/gulp-insert
+250 info attempt registry request try #3 at 13:21:55
+251 http request GET https://registry.npmjs.org/gulp-sass
+252 info attempt registry request try #3 at 13:21:55
+253 http request GET https://registry.npmjs.org/gulp-zip
+254 info attempt registry request try #3 at 13:21:55
+255 http request GET https://registry.npmjs.org/vinyl-buffer
+256 info attempt registry request try #3 at 13:21:55
+257 http request GET https://registry.npmjs.org/vinyl-source-stream
+258 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+258 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+258 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+258 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+258 silly fetchPackageMetaData  error for gulp-eslint@^1.0.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+258 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+258 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+258 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+258 silly fetchPackageMetaData   code: 'ENOENT',
+258 silly fetchPackageMetaData   errno: 'ENOENT',
+258 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+258 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+258 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+258 silly fetchPackageMetaData   port: 443 }
+259 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+259 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+259 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+259 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+259 silly fetchPackageMetaData  error for gulp-insert@^0.5.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+259 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+259 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+259 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+259 silly fetchPackageMetaData   code: 'ENOENT',
+259 silly fetchPackageMetaData   errno: 'ENOENT',
+259 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+259 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+259 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+259 silly fetchPackageMetaData   port: 443 }
+260 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+260 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+260 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+260 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+260 silly fetchPackageMetaData  error for gulp-sass@^2.0.4 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+260 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+260 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+260 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+260 silly fetchPackageMetaData   code: 'ENOENT',
+260 silly fetchPackageMetaData   errno: 'ENOENT',
+260 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+260 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+260 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+260 silly fetchPackageMetaData   port: 443 }
+261 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+261 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+261 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+261 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+261 silly fetchPackageMetaData  error for gulp-zip@^3.0.2 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+261 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+261 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+261 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+261 silly fetchPackageMetaData   code: 'ENOENT',
+261 silly fetchPackageMetaData   errno: 'ENOENT',
+261 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+261 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+261 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+261 silly fetchPackageMetaData   port: 443 }
+262 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+262 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+262 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+262 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+262 silly fetchPackageMetaData  error for vinyl-buffer@^1.0.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+262 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+262 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+262 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+262 silly fetchPackageMetaData   code: 'ENOENT',
+262 silly fetchPackageMetaData   errno: 'ENOENT',
+262 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+262 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+262 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+262 silly fetchPackageMetaData   port: 443 }
+263 silly fetchPackageMetaData Error: getaddrinfo ENOENT registry.npmjs.org:443
+263 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+263 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+263 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+263 silly fetchPackageMetaData  error for vinyl-source-stream@^1.1.0 { Error: getaddrinfo ENOENT registry.npmjs.org:443
+263 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+263 silly fetchPackageMetaData     at errnoException (dns.js:33:15)
+263 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+263 silly fetchPackageMetaData   code: 'ENOENT',
+263 silly fetchPackageMetaData   errno: 'ENOENT',
+263 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+263 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+263 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+263 silly fetchPackageMetaData   port: 443 }
+264 info attempt registry request try #3 at 13:21:56
+265 verbose etag W/"59561cbf-17b92"
+266 verbose lastModified Fri, 30 Jun 2017 09:41:19 GMT
+267 http request GET https://registry.npmjs.org/event-stream
+268 info attempt registry request try #3 at 13:21:56
+269 verbose etag W/"59776724-3e07"
+270 verbose lastModified Tue, 25 Jul 2017 15:43:32 GMT
+271 http request GET https://registry.npmjs.org/gulp-rename
+272 info attempt registry request try #3 at 13:21:56
+273 verbose etag W/"59786617-11db7"
+274 verbose lastModified Wed, 26 Jul 2017 09:51:19 GMT
+275 http request GET https://registry.npmjs.org/gulp-connect
+276 silly get cb [ 304, undefined ]
+277 verbose etag https://registry.npmjs.org/event-stream from cache
+278 verbose get saving event-stream to C:\Users\SAM\AppData\Roaming\npm-cache\registry.npmjs.org\event-stream\.cache.json
+279 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+280 silly get cb [ 304, undefined ]
+281 verbose etag https://registry.npmjs.org/gulp-rename from cache
+282 verbose get saving gulp-rename to C:\Users\SAM\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-rename\.cache.json
+283 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+284 silly get cb [ 304, undefined ]
+285 verbose etag https://registry.npmjs.org/gulp-connect from cache
+286 verbose get saving gulp-connect to C:\Users\SAM\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-connect\.cache.json
+287 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+288 info attempt registry request try #3 at 13:21:56
+289 verbose etag W/"597777ee-7d2a"
+290 verbose lastModified Tue, 25 Jul 2017 16:55:10 GMT
+291 http request GET https://registry.npmjs.org/del
+292 silly get cb [ 304, undefined ]
+293 verbose etag https://registry.npmjs.org/del from cache
+294 verbose get saving del to C:\Users\SAM\AppData\Roaming\npm-cache\registry.npmjs.org\del\.cache.json
+295 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+296 silly resolveWithNewModule event-stream@3.3.4 checking installable status
+297 silly cache add args [ 'event-stream@^3.3.1', null ]
+298 verbose cache add spec event-stream@^3.3.1
+299 silly cache add parsed spec Result {
+299 silly cache add   raw: 'event-stream@^3.3.1',
+299 silly cache add   scope: null,
+299 silly cache add   escapedName: 'event-stream',
+299 silly cache add   name: 'event-stream',
+299 silly cache add   rawSpec: '^3.3.1',
+299 silly cache add   spec: '>=3.3.1 <4.0.0',
+299 silly cache add   type: 'range' }
+300 silly addNamed event-stream@>=3.3.1 <4.0.0
+301 verbose addNamed ">=3.3.1 <4.0.0" is a valid semver range for event-stream
+302 silly addNameRange { name: 'event-stream', range: '>=3.3.1 <4.0.0', hasData: false }
+303 silly mapToRegistry name event-stream
+304 silly mapToRegistry using default registry
+305 silly mapToRegistry registry https://registry.npmjs.org/
+306 silly mapToRegistry data Result {
+306 silly mapToRegistry   raw: 'event-stream',
+306 silly mapToRegistry   scope: null,
+306 silly mapToRegistry   escapedName: 'event-stream',
+306 silly mapToRegistry   name: 'event-stream',
+306 silly mapToRegistry   rawSpec: '',
+306 silly mapToRegistry   spec: 'latest',
+306 silly mapToRegistry   type: 'tag' }
+307 silly mapToRegistry uri https://registry.npmjs.org/event-stream
+308 verbose addNameRange registry:https://registry.npmjs.org/event-stream not in flight; fetching
+309 silly resolveWithNewModule gulp-connect@2.3.1 checking installable status
+310 silly cache add args [ 'gulp-connect@^2.2.0', null ]
+311 verbose cache add spec gulp-connect@^2.2.0
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'gulp-connect@^2.2.0',
+312 silly cache add   scope: null,
+312 silly cache add   escapedName: 'gulp-connect',
+312 silly cache add   name: 'gulp-connect',
+312 silly cache add   rawSpec: '^2.2.0',
+312 silly cache add   spec: '>=2.2.0 <3.0.0',
+312 silly cache add   type: 'range' }
+313 silly addNamed gulp-connect@>=2.2.0 <3.0.0
+314 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for gulp-connect
+315 silly addNameRange { name: 'gulp-connect', range: '>=2.2.0 <3.0.0', hasData: false }
+316 silly mapToRegistry name gulp-connect
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry data Result {
+319 silly mapToRegistry   raw: 'gulp-connect',
+319 silly mapToRegistry   scope: null,
+319 silly mapToRegistry   escapedName: 'gulp-connect',
+319 silly mapToRegistry   name: 'gulp-connect',
+319 silly mapToRegistry   rawSpec: '',
+319 silly mapToRegistry   spec: 'latest',
+319 silly mapToRegistry   type: 'tag' }
+320 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+321 verbose addNameRange registry:https://registry.npmjs.org/gulp-connect not in flight; fetching
+322 silly resolveWithNewModule gulp-rename@1.2.2 checking installable status
+323 silly cache add args [ 'gulp-rename@^1.2.2', null ]
+324 verbose cache add spec gulp-rename@^1.2.2
+325 silly cache add parsed spec Result {
+325 silly cache add   raw: 'gulp-rename@^1.2.2',
+325 silly cache add   scope: null,
+325 silly cache add   escapedName: 'gulp-rename',
+325 silly cache add   name: 'gulp-rename',
+325 silly cache add   rawSpec: '^1.2.2',
+325 silly cache add   spec: '>=1.2.2 <2.0.0',
+325 silly cache add   type: 'range' }
+326 silly addNamed gulp-rename@>=1.2.2 <2.0.0
+327 verbose addNamed ">=1.2.2 <2.0.0" is a valid semver range for gulp-rename
+328 silly addNameRange { name: 'gulp-rename', range: '>=1.2.2 <2.0.0', hasData: false }
+329 silly mapToRegistry name gulp-rename
+330 silly mapToRegistry using default registry
+331 silly mapToRegistry registry https://registry.npmjs.org/
+332 silly mapToRegistry data Result {
+332 silly mapToRegistry   raw: 'gulp-rename',
+332 silly mapToRegistry   scope: null,
+332 silly mapToRegistry   escapedName: 'gulp-rename',
+332 silly mapToRegistry   name: 'gulp-rename',
+332 silly mapToRegistry   rawSpec: '',
+332 silly mapToRegistry   spec: 'latest',
+332 silly mapToRegistry   type: 'tag' }
+333 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+334 verbose addNameRange registry:https://registry.npmjs.org/gulp-rename not in flight; fetching
+335 silly resolveWithNewModule del@2.2.2 checking installable status
+336 silly cache add args [ 'del@^2.0.2', null ]
+337 verbose cache add spec del@^2.0.2
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: 'del@^2.0.2',
+338 silly cache add   scope: null,
+338 silly cache add   escapedName: 'del',
+338 silly cache add   name: 'del',
+338 silly cache add   rawSpec: '^2.0.2',
+338 silly cache add   spec: '>=2.0.2 <3.0.0',
+338 silly cache add   type: 'range' }
+339 silly addNamed del@>=2.0.2 <3.0.0
+340 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for del
+341 silly addNameRange { name: 'del', range: '>=2.0.2 <3.0.0', hasData: false }
+342 silly mapToRegistry name del
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry data Result {
+345 silly mapToRegistry   raw: 'del',
+345 silly mapToRegistry   scope: null,
+345 silly mapToRegistry   escapedName: 'del',
+345 silly mapToRegistry   name: 'del',
+345 silly mapToRegistry   rawSpec: '',
+345 silly mapToRegistry   spec: 'latest',
+345 silly mapToRegistry   type: 'tag' }
+346 silly mapToRegistry uri https://registry.npmjs.org/del
+347 verbose addNameRange registry:https://registry.npmjs.org/del not in flight; fetching
+348 verbose get https://registry.npmjs.org/event-stream not expired, no request
+349 silly addNameRange number 2 { name: 'event-stream', range: '>=3.3.1 <4.0.0', hasData: true }
+350 silly addNameRange versions [ 'event-stream',
+350 silly addNameRange   [ '0.1.0',
+350 silly addNameRange     '0.2.0',
+350 silly addNameRange     '0.2.1',
+350 silly addNameRange     '0.3.0',
+350 silly addNameRange     '0.4.0',
+350 silly addNameRange     '0.5.0',
+350 silly addNameRange     '0.5.1',
+350 silly addNameRange     '0.5.2',
+350 silly addNameRange     '0.5.3',
+350 silly addNameRange     '0.6.0',
+350 silly addNameRange     '0.7.0',
+350 silly addNameRange     '0.8.0',
+350 silly addNameRange     '0.8.1',
+350 silly addNameRange     '0.8.2',
+350 silly addNameRange     '0.9.0',
+350 silly addNameRange     '0.9.1',
+350 silly addNameRange     '0.9.2',
+350 silly addNameRange     '0.9.3',
+350 silly addNameRange     '0.9.4',
+350 silly addNameRange     '0.9.6',
+350 silly addNameRange     '0.9.7',
+350 silly addNameRange     '0.9.8',
+350 silly addNameRange     '0.10.0',
+350 silly addNameRange     '1.0.0',
+350 silly addNameRange     '1.1.0',
+350 silly addNameRange     '1.2.0',
+350 silly addNameRange     '1.3.0',
+350 silly addNameRange     '1.3.1',
+350 silly addNameRange     '2.0.0',
+350 silly addNameRange     '2.0.1',
+350 silly addNameRange     '2.0.2',
+350 silly addNameRange     '2.0.3',
+350 silly addNameRange     '2.0.4',
+350 silly addNameRange     '2.0.9',
+350 silly addNameRange     '2.0.10',
+350 silly addNameRange     '2.1.0',
+350 silly addNameRange     '2.1.2',
+350 silly addNameRange     '2.1.3',
+350 silly addNameRange     '2.1.4',
+350 silly addNameRange     '2.1.5',
+350 silly addNameRange     '2.1.7',
+350 silly addNameRange     '2.1.8',
+350 silly addNameRange     '2.1.9',
+350 silly addNameRange     '2.2.0',
+350 silly addNameRange     '2.2.1',
+350 silly addNameRange     '2.2.2',
+350 silly addNameRange     '2.2.3',
+350 silly addNameRange     '3.0.0',
+350 silly addNameRange     '3.0.1',
+350 silly addNameRange     '3.0.2',
+350 silly addNameRange     '3.0.3',
+350 silly addNameRange     '3.0.4',
+350 silly addNameRange     '3.0.5',
+350 silly addNameRange     '3.0.6',
+350 silly addNameRange     '3.0.7',
+350 silly addNameRange     '3.0.8',
+350 silly addNameRange     '3.0.9',
+350 silly addNameRange     '3.0.10',
+350 silly addNameRange     '3.0.11',
+350 silly addNameRange     '3.0.12',
+350 silly addNameRange     '3.0.13',
+350 silly addNameRange     '3.0.14',
+350 silly addNameRange     '3.0.15',
+350 silly addNameRange     '3.0.16',
+350 silly addNameRange     '3.0.17',
+350 silly addNameRange     '3.0.18',
+350 silly addNameRange     '3.0.20',
+350 silly addNameRange     '3.1.0',
+350 silly addNameRange     '3.1.1',
+350 silly addNameRange     '3.1.2',
+350 silly addNameRange     '3.1.4',
+350 silly addNameRange     '3.1.5',
+350 silly addNameRange     '3.1.7',
+350 silly addNameRange     '3.2.0',
+350 silly addNameRange     '3.2.1',
+350 silly addNameRange     '3.2.2',
+350 silly addNameRange     '3.3.0',
+350 silly addNameRange     '3.3.1',
+350 silly addNameRange     '3.3.2',
+350 silly addNameRange     '3.3.3',
+350 silly addNameRange     '3.3.4' ] ]
+351 silly addNamed event-stream@3.3.4
+352 verbose addNamed "3.3.4" is a plain semver version for event-stream
+353 info attempt registry request try #3 at 13:21:56
+354 verbose etag W/"59777133-e247"
+355 verbose lastModified Tue, 25 Jul 2017 16:26:27 GMT
+356 http request GET https://registry.npmjs.org/gulp-uglify
+357 verbose get https://registry.npmjs.org/gulp-connect not expired, no request
+358 silly addNameRange number 2 { name: 'gulp-connect', range: '>=2.2.0 <3.0.0', hasData: true }
+359 silly addNameRange versions [ 'gulp-connect',
+359 silly addNameRange   [ '0.0.1',
+359 silly addNameRange     '0.1.1',
+359 silly addNameRange     '0.1.2',
+359 silly addNameRange     '0.1.3',
+359 silly addNameRange     '0.1.4',
+359 silly addNameRange     '0.1.5',
+359 silly addNameRange     '0.1.6',
+359 silly addNameRange     '0.2.0',
+359 silly addNameRange     '0.3.0',
+359 silly addNameRange     '0.3.1',
+359 silly addNameRange     '0.4.0',
+359 silly addNameRange     '0.5.0',
+359 silly addNameRange     '0.6.0',
+359 silly addNameRange     '0.7.0',
+359 silly addNameRange     '0.8.0',
+359 silly addNameRange     '0.9.0',
+359 silly addNameRange     '1.0.0',
+359 silly addNameRange     '1.0.1',
+359 silly addNameRange     '1.0.2',
+359 silly addNameRange     '1.0.3',
+359 silly addNameRange     '1.0.4',
+359 silly addNameRange     '1.0.5',
+359 silly addNameRange     '1.0.6',
+359 silly addNameRange     '1.0.7',
+359 silly addNameRange     '1.0.9',
+359 silly addNameRange     '1.0.10',
+359 silly addNameRange     '1.1.0',
+359 silly addNameRange     '1.1.1',
+359 silly addNameRange     '2.0.0',
+359 silly addNameRange     '2.0.1',
+359 silly addNameRange     '2.0.2',
+359 silly addNameRange     '2.0.3',
+359 silly addNameRange     '2.0.4',
+359 silly addNameRange     '2.0.5',
+359 silly addNameRange     '2.0.6',
+359 silly addNameRange     '2.1.0',
+359 silly addNameRange     '2.2.0',
+359 silly addNameRange     '2.3.0',
+359 silly addNameRange     '2.3.1',
+359 silly addNameRange     '3.0.0',
+359 silly addNameRange     '3.1.0',
+359 silly addNameRange     '3.1.1',
+359 silly addNameRange     '3.2.0',
+359 silly addNameRange     '3.2.1',
+359 silly addNameRange     '3.2.2',
+359 silly addNameRange     '3.2.3',
+359 silly addNameRange     '4.0.0',
+359 silly addNameRange     '4.1.0',
+359 silly addNameRange     '4.2.0',
+359 silly addNameRange     '5.0.0' ] ]
+360 silly addNamed gulp-connect@2.3.1
+361 verbose addNamed "2.3.1" is a plain semver version for gulp-connect
+362 verbose get https://registry.npmjs.org/gulp-rename not expired, no request
+363 silly addNameRange number 2 { name: 'gulp-rename', range: '>=1.2.2 <2.0.0', hasData: true }
+364 silly addNameRange versions [ 'gulp-rename',
+364 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+365 silly addNamed gulp-rename@1.2.2
+366 verbose addNamed "1.2.2" is a plain semver version for gulp-rename
+367 verbose get https://registry.npmjs.org/del not expired, no request
+368 silly addNameRange number 2 { name: 'del', range: '>=2.0.2 <3.0.0', hasData: true }
+369 silly addNameRange versions [ 'del',
+369 silly addNameRange   [ '0.1.0',
+369 silly addNameRange     '0.1.1',
+369 silly addNameRange     '0.1.2',
+369 silly addNameRange     '0.1.3',
+369 silly addNameRange     '1.0.0',
+369 silly addNameRange     '1.1.0',
+369 silly addNameRange     '1.1.1',
+369 silly addNameRange     '1.2.0',
+369 silly addNameRange     '1.2.1',
+369 silly addNameRange     '2.0.0',
+369 silly addNameRange     '2.0.1',
+369 silly addNameRange     '2.0.2',
+369 silly addNameRange     '2.1.0',
+369 silly addNameRange     '2.2.0',
+369 silly addNameRange     '2.2.1',
+369 silly addNameRange     '2.2.2',
+369 silly addNameRange     '3.0.0' ] ]
+370 silly addNamed del@2.2.2
+371 verbose addNamed "2.2.2" is a plain semver version for del
+372 silly get cb [ 304, undefined ]
+373 verbose etag https://registry.npmjs.org/gulp-uglify from cache
+374 verbose get saving gulp-uglify to C:\Users\SAM\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-uglify\.cache.json
+375 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+376 silly mapToRegistry name gulp-connect
+377 silly mapToRegistry using default registry
+378 silly mapToRegistry registry https://registry.npmjs.org/
+379 silly mapToRegistry data Result {
+379 silly mapToRegistry   raw: 'gulp-connect',
+379 silly mapToRegistry   scope: null,
+379 silly mapToRegistry   escapedName: 'gulp-connect',
+379 silly mapToRegistry   name: 'gulp-connect',
+379 silly mapToRegistry   rawSpec: '',
+379 silly mapToRegistry   spec: 'latest',
+379 silly mapToRegistry   type: 'tag' }
+380 silly mapToRegistry uri https://registry.npmjs.org/gulp-connect
+381 verbose addRemoteTarball https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz not in flight; adding
+382 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz',
+382 verbose addRemoteTarball   '14ae7173328b691252b01fc1930a39cbb24fb33c' ]
+383 info retry fetch attempt 1 at 13:21:56
+384 info attempt registry request try #1 at 13:21:56
+385 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+386 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+387 silly cache afterAdd event-stream@3.3.4
+388 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\event-stream\3.3.4\package\package.json not in flight; writing
+389 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+390 silly resolveWithNewModule gulp-uglify@1.5.4 checking installable status
+391 silly cache add args [ 'gulp-uglify@^1.4.1', null ]
+392 verbose cache add spec gulp-uglify@^1.4.1
+393 silly cache add parsed spec Result {
+393 silly cache add   raw: 'gulp-uglify@^1.4.1',
+393 silly cache add   scope: null,
+393 silly cache add   escapedName: 'gulp-uglify',
+393 silly cache add   name: 'gulp-uglify',
+393 silly cache add   rawSpec: '^1.4.1',
+393 silly cache add   spec: '>=1.4.1 <2.0.0',
+393 silly cache add   type: 'range' }
+394 silly addNamed gulp-uglify@>=1.4.1 <2.0.0
+395 verbose addNamed ">=1.4.1 <2.0.0" is a valid semver range for gulp-uglify
+396 silly addNameRange { name: 'gulp-uglify', range: '>=1.4.1 <2.0.0', hasData: false }
+397 silly mapToRegistry name gulp-uglify
+398 silly mapToRegistry using default registry
+399 silly mapToRegistry registry https://registry.npmjs.org/
+400 silly mapToRegistry data Result {
+400 silly mapToRegistry   raw: 'gulp-uglify',
+400 silly mapToRegistry   scope: null,
+400 silly mapToRegistry   escapedName: 'gulp-uglify',
+400 silly mapToRegistry   name: 'gulp-uglify',
+400 silly mapToRegistry   rawSpec: '',
+400 silly mapToRegistry   spec: 'latest',
+400 silly mapToRegistry   type: 'tag' }
+401 silly mapToRegistry uri https://registry.npmjs.org/gulp-uglify
+402 verbose addNameRange registry:https://registry.npmjs.org/gulp-uglify not in flight; fetching
+403 silly cache afterAdd gulp-rename@1.2.2
+404 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp-rename\1.2.2\package\package.json not in flight; writing
+405 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+406 verbose get https://registry.npmjs.org/gulp-uglify not expired, no request
+407 silly addNameRange number 2 { name: 'gulp-uglify', range: '>=1.4.1 <2.0.0', hasData: true }
+408 silly addNameRange versions [ 'gulp-uglify',
+408 silly addNameRange   [ '0.0.1',
+408 silly addNameRange     '0.0.3',
+408 silly addNameRange     '0.0.4',
+408 silly addNameRange     '0.1.0',
+408 silly addNameRange     '0.2.0',
+408 silly addNameRange     '0.2.1',
+408 silly addNameRange     '0.3.0',
+408 silly addNameRange     '0.3.1',
+408 silly addNameRange     '0.3.2',
+408 silly addNameRange     '1.0.0-0',
+408 silly addNameRange     '1.0.0',
+408 silly addNameRange     '1.0.1',
+408 silly addNameRange     '1.0.2',
+408 silly addNameRange     '1.1.0',
+408 silly addNameRange     '1.2.0',
+408 silly addNameRange     '1.3.0',
+408 silly addNameRange     '1.4.0',
+408 silly addNameRange     '1.4.1',
+408 silly addNameRange     '1.4.2',
+408 silly addNameRange     '1.5.1',
+408 silly addNameRange     '1.5.2',
+408 silly addNameRange     '1.5.3',
+408 silly addNameRange     '1.5.4',
+408 silly addNameRange     '2.0.0',
+408 silly addNameRange     '2.0.1',
+408 silly addNameRange     '2.1.0',
+408 silly addNameRange     '2.1.1',
+408 silly addNameRange     '2.1.2',
+408 silly addNameRange     '3.0.0' ] ]
+409 silly addNamed gulp-uglify@1.5.4
+410 verbose addNamed "1.5.4" is a plain semver version for gulp-uglify
+411 silly cache afterAdd del@2.2.2
+412 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\del\2.2.2\package\package.json not in flight; writing
+413 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+414 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\event-stream\3.3.4\package\package.json written
+415 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp-rename\1.2.2\package\package.json written
+416 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\del\2.2.2\package\package.json written
+417 info attempt registry request try #3 at 13:21:56
+418 verbose etag W/"5977a0be-1d6fb"
+419 verbose lastModified Tue, 25 Jul 2017 19:49:18 GMT
+420 http request GET https://registry.npmjs.org/gulp
+421 silly cache afterAdd gulp-uglify@1.5.4
+422 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp-uglify\1.5.4\package\package.json not in flight; writing
+423 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+424 silly get cb [ 304, undefined ]
+425 verbose etag https://registry.npmjs.org/gulp from cache
+426 verbose get saving gulp to C:\Users\SAM\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+427 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+428 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp-uglify\1.5.4\package\package.json written
+429 silly resolveWithNewModule gulp@3.9.1 checking installable status
+430 silly cache add args [ 'gulp@^3.9.0', null ]
+431 verbose cache add spec gulp@^3.9.0
+432 silly cache add parsed spec Result {
+432 silly cache add   raw: 'gulp@^3.9.0',
+432 silly cache add   scope: null,
+432 silly cache add   escapedName: 'gulp',
+432 silly cache add   name: 'gulp',
+432 silly cache add   rawSpec: '^3.9.0',
+432 silly cache add   spec: '>=3.9.0 <4.0.0',
+432 silly cache add   type: 'range' }
+433 silly addNamed gulp@>=3.9.0 <4.0.0
+434 verbose addNamed ">=3.9.0 <4.0.0" is a valid semver range for gulp
+435 silly addNameRange { name: 'gulp', range: '>=3.9.0 <4.0.0', hasData: false }
+436 silly mapToRegistry name gulp
+437 silly mapToRegistry using default registry
+438 silly mapToRegistry registry https://registry.npmjs.org/
+439 silly mapToRegistry data Result {
+439 silly mapToRegistry   raw: 'gulp',
+439 silly mapToRegistry   scope: null,
+439 silly mapToRegistry   escapedName: 'gulp',
+439 silly mapToRegistry   name: 'gulp',
+439 silly mapToRegistry   rawSpec: '',
+439 silly mapToRegistry   spec: 'latest',
+439 silly mapToRegistry   type: 'tag' }
+440 silly mapToRegistry uri https://registry.npmjs.org/gulp
+441 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+442 verbose get https://registry.npmjs.org/gulp not expired, no request
+443 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.0 <4.0.0', hasData: true }
+444 silly addNameRange versions [ 'gulp',
+444 silly addNameRange   [ '0.0.1',
+444 silly addNameRange     '0.0.2',
+444 silly addNameRange     '0.0.3',
+444 silly addNameRange     '0.0.4',
+444 silly addNameRange     '0.0.5',
+444 silly addNameRange     '0.0.7',
+444 silly addNameRange     '0.0.8',
+444 silly addNameRange     '0.0.9',
+444 silly addNameRange     '0.1.0',
+444 silly addNameRange     '0.2.0',
+444 silly addNameRange     '1.0.0',
+444 silly addNameRange     '1.1.0',
+444 silly addNameRange     '1.2.0',
+444 silly addNameRange     '1.2.1',
+444 silly addNameRange     '2.0.0',
+444 silly addNameRange     '2.0.1',
+444 silly addNameRange     '2.1.0',
+444 silly addNameRange     '2.2.0',
+444 silly addNameRange     '2.3.0',
+444 silly addNameRange     '2.4.0',
+444 silly addNameRange     '2.4.1',
+444 silly addNameRange     '2.6.0',
+444 silly addNameRange     '2.6.1',
+444 silly addNameRange     '2.7.0',
+444 silly addNameRange     '3.0.0',
+444 silly addNameRange     '3.1.1',
+444 silly addNameRange     '3.1.2',
+444 silly addNameRange     '3.1.3',
+444 silly addNameRange     '3.1.4',
+444 silly addNameRange     '3.2.0',
+444 silly addNameRange     '3.2.1',
+444 silly addNameRange     '3.2.2',
+444 silly addNameRange     '3.2.3',
+444 silly addNameRange     '3.2.4',
+444 silly addNameRange     '3.2.5',
+444 silly addNameRange     '3.3.0',
+444 silly addNameRange     '3.3.1',
+444 silly addNameRange     '3.3.2',
+444 silly addNameRange     '3.3.4',
+444 silly addNameRange     '3.4.0',
+444 silly addNameRange     '3.5.0',
+444 silly addNameRange     '3.5.1',
+444 silly addNameRange     '3.5.2',
+444 silly addNameRange     '3.5.5',
+444 silly addNameRange     '3.5.6',
+444 silly addNameRange     '3.6.0',
+444 silly addNameRange     '3.6.1',
+444 silly addNameRange     '3.6.2',
+444 silly addNameRange     '3.7.0',
+444 silly addNameRange     '3.8.0',
+444 silly addNameRange     '3.8.1',
+444 silly addNameRange     '3.8.2',
+444 silly addNameRange     '3.8.3',
+444 silly addNameRange     '3.8.4',
+444 silly addNameRange     '3.8.5',
+444 silly addNameRange     '3.8.6',
+444 silly addNameRange     '3.8.7',
+444 silly addNameRange     '3.8.8',
+444 silly addNameRange     '3.8.9',
+444 silly addNameRange     '3.8.10',
+444 silly addNameRange     '3.8.11',
+444 silly addNameRange     '3.9.0',
+444 silly addNameRange     '3.9.1' ] ]
+445 silly addNamed gulp@3.9.1
+446 verbose addNamed "3.9.1" is a plain semver version for gulp
+447 silly cache afterAdd gulp@3.9.1
+448 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+449 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+450 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+451 info attempt registry request try #2 at 13:22:06
+452 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+453 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+454 info attempt registry request try #3 at 13:23:06
+455 http fetch GET https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+456 http fetch 200 https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.3.1.tgz
+457 silly fetchAndShaCheck shasum 14ae7173328b691252b01fc1930a39cbb24fb33c
+458 verbose addTmpTarball C:\Users\SAM\AppData\Local\Temp\npm-7856-c3e04b18\registry.npmjs.org\gulp-connect\-\gulp-connect-2.3.1.tgz not in flight; adding
+459 verbose addTmpTarball already have metadata; skipping unpack for gulp-connect@2.3.1
+460 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+461 silly cache afterAdd gulp-connect@2.3.1
+462 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp-connect\2.3.1\package\package.json not in flight; writing
+463 verbose correctMkdir C:\Users\SAM\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+464 verbose afterAdd C:\Users\SAM\AppData\Roaming\npm-cache\gulp-connect\2.3.1\package\package.json written
+465 silly rollbackFailedOptional Starting
+466 silly rollbackFailedOptional Finishing
+467 silly runTopLevelLifecycles Finishing
+468 silly install printInstalled
+469 verbose stack Error: getaddrinfo ENOENT registry.npmjs.org:443
+469 verbose stack     at Object.exports._errnoException (util.js:1018:11)
+469 verbose stack     at errnoException (dns.js:33:15)
+469 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+470 verbose cwd C:\Users\SAM\Desktop\Drive-safe-v2-master\public\lib\perfect-scrollbar-master
+471 error Windows_NT 6.1.7601
+472 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--scripts-prepend-node-path=auto"
+473 error node v6.11.1
+474 error npm  v3.10.10
+475 error code ENOENT
+476 error errno ENOENT
+477 error syscall getaddrinfo
+478 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+479 error enoent getaddrinfo ENOENT registry.npmjs.org:443
+479 error enoent This is most likely not a problem with npm itself
+479 error enoent and is related to npm not being able to find a file.
+480 verbose exit [ 1, true ]
