@@ -1,2 +1,1 @@
-Drive-safe
-Safe Drive : Mean Stack web application
+Drive-safe : Mean Stack web application
